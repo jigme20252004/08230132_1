@@ -1,0 +1,56 @@
+
+<!DOCTYPE html> 
+<html> 
+    <head>
+        <title>HTML Basics Demo</title> 
+        <style>
+            p {
+                color: green
+
+            }
+            table,
+            th,
+            td {
+                border: 1px solid black;
+                border-collapse: collapse;
+                padding: lem;
+                margin: lem;
+            }
+              
+        </style>
+        <link 
+        rel="stylesheet"
+        href="styles.css">
+    </head>
+    <body>
+        <div class="header">
+        <h1 style="color:blue; text-align: center">Welcome to <span id="highlight">HTML</span></h1> </div>
+        <p>The concepts coverd under this tutorial include:</p>
+        <ul>
+            <li>Introduction to HTML</li>
+            <li>HTML Elements and Tags</li>
+        </ul>
+
+        <p>This is a paragraph element. <b>HTML<b> uses tags to <i>mark up<i> content.</p>
+        <img src ="https://tse4.mm.bing.net/th/id/OIP.o-wNqCyhGc3XpFMfCCFpigHaEK?pid=Api&P=0&h=220" alt= "HTML Logo" />
+        <a href ="https://www.youtube.com/watch?v=0W4HgiMEUvY" > Learn more about HTML</a>
+        <a href ="next.html" >Next page</a>
+        <table>
+            <caption>HTML Table Demo</caption>
+            <tr>
+                <th>Element</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>p</td>
+                <td>Defines a paragraph</td>
+            </tr>
+            <tr>
+                <td>h1 to h6</td>
+                <td>Determines NTML headings</td>
+            </tr>
+        </table>
+    <a href="form.html">HTML Form Demo</a>           
+    </body>
+ </html>
+    
